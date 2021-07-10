@@ -3,9 +3,11 @@ import { View, Text, StyleSheet } from 'react-native'
 
 export default class SpaceCraftsScreen extends React.Component{
     render(){
-      <View style={styles.container}>
-          <Text>Space Screen!</Text>
-      </View>
+      return(
+          <View style={styles.container}>
+              <Text>SpaceCrafts</Text>
+          </View>
+      )
     }
 }
 

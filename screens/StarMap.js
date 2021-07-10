@@ -1,18 +1,20 @@
-import * as React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import * as React from "react";
+import { View, Text, StyleSheet } from "react-native";
 
-export default class StarMap extends React.Component{
-    render(){
+export default class StarMap extends React.Component {
+  render() {
+    return (
       <View style={styles.container}>
-          <Text>Star Map Screen!</Text>
+        <Text>Star Map Screen!</Text>
       </View>
-    }
+    );
+  }
 }
 
 const styles = StyleSheet.create({
-    container: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        flex: 1,
-    }
-})
+  container: {
+    justifyContent: "center",
+    alignItems: "center",
+    flex: 1,
+  },
+});

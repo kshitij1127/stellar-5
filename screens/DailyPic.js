@@ -1,18 +1,20 @@
-import * as React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import * as React from "react";
+import { View, Text, StyleSheet } from "react-native";
 
-export default class DailyPic extends React.Component{
-    render(){
+export default class DailyPic extends React.Component {
+  render() {
+    return (
       <View style={styles.container}>
-          <Text>Daily pictures!</Text>
+        <Text>Daily pictures!</Text>
       </View>
-    }
+    );
+  }
 }
 
 const styles = StyleSheet.create({
-    container: {
-        justifyContent: 'center',
-        alignItems: 'center',
-        flex: 1,
-    }
-})
+  container: {
+    justifyContent: "center",
+    alignItems: "center",
+    flex: 1,
+  },
+});

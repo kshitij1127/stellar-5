@@ -21,7 +21,6 @@ export default class App extends React.Component {
         <Stack.Screen name="SpaceCrafts" component={SpaceCraftsScreen}></Stack.Screen>
         <Stack.Screen name="DailyPic" component={DailyPic}></Stack.Screen>
         <Stack.Screen name="StarMap" component={StarMap}></Stack.Screen>
-
         </Stack.Navigator>
       </NavigationContainer>
     )
