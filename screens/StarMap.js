@@ -23,7 +23,7 @@ export default class StarMap extends React.Component {
           placeholderTextColor="#fff#000"
           onChangeText={(text) => {
             this.setState({ latitude: text });
-            console.log(this.state.latitude)
+            console.log(this.state.latitude) 
           }}
         />
 
@@ -32,7 +32,7 @@ export default class StarMap extends React.Component {
           placeholder="enter your longitude"
           placeholderTextColor="#fff#000"
           onChangeText={(text) => {
-            this.setState({ longitude: text });
+            this.setState({ longitude: text }); 
             console.log(this.state.longitude)
           }}
         />
@@ -46,6 +46,8 @@ export default class StarMap extends React.Component {
     );
   }
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
