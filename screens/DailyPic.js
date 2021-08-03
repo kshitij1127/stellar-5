@@ -15,8 +15,7 @@ export default class DailyPic extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      pic: "",
-      picUrl: "",
+      pic: [],
     };
   }
 
