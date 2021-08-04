@@ -47,7 +47,8 @@ export default class DailyPic extends React.Component {
           <TouchableOpacity
             onPress={() => {
               Linking.openURL(this.state.pic.url).catch((err) =>
-                console.error("Couldn't load the page", err)
+                console.error("Couldn't load the page", err), 
+                alert(err.message)
               );
             }}
           >
