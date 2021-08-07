@@ -8,6 +8,7 @@ import {
   Linking,
   StatusBar,
   Platform,
+  TouchableOpacity, 
 } from "react-native";
 import axios from "axios";
 
